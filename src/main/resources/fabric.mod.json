@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sight",
+  "version": "${version}",
+  "name": "Sight",
+  "description": "A flexible UI library for Fabric mods inspired by HTML.",
+  "authors": [
+    "honkling"
+  ],
+  "contact": {
+    "repo": "https://github.com/honkling/Sight"
+  },
+  "license": "MIT",
+  "icon": "assets/sight/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.honkling.sight.Sight"
+    ]
+  },
+  "mixins": [
+    "sight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
